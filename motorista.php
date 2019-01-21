@@ -51,16 +51,16 @@
                     <span class="sr-only"></span>
                   </button>
                   <div class="dropdown-menu">
-                    <a class="dropdown-item" href="cadastroPassageiro.php">Cadastro Passageiro</a>
+                      <a class="dropdown-item" href="cadastroPassageiro.php">Cadastro Passageiro</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="cadastroMotorista.php">Cadastro Motorista</a>
+                      <a class="dropdown-item" href="cadastroMotorista.php">Cadastro Motorista</a>
+                    <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="corridas.php">Cadastro Corrida</a>
+                    </div>
                   </div>
-                </div>
               </li>
-
             </ul>
           </div>
-
         </div>
       </nav>
     </header><!--/fim Cabecalho -->

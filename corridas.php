@@ -54,8 +54,10 @@
                     <a class="dropdown-item" href="cadastroPassageiro.php">Cadastro Passageiro</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="cadastroMotorista.php">Cadastro Motorista</a>
+                    <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="corridas.php">Cadastro Corrida</a>
+                    </div> 
                   </div>
-                </div>
               </li>
             </ul>
           </div>
