@@ -70,9 +70,9 @@
         <div class="row">
           <div class="col-md-6 d-flex"><!-- Textos da seção -->
             <div class="align-self-center">
-              <h1 class="display-4">Consulta de Motoristas</h1>
+              <h1 class="display-4">Consulta de Corridas</h1>
               <p>
-                  Nesta página há uma table listando todos os motoristas
+                  Nesta página há uma table listando todas as corridas
               </p>
             </div>
           </div><!--/fim textos da seção -->
