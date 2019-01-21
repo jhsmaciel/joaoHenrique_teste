@@ -37,7 +37,7 @@
                 <a href="index.html" class="nav-link">Home</a>
               </li>
               <li class="nav-item">
-                <a href="corridas.php" class="nav-link">Corridas</a>
+                <a href="corridaTable.php" class="nav-link">Corridas</a>
               </li>
               <li class="nav-item">
                 <a href="passageiro.php" class="nav-link">Passageiro</a>

@@ -37,7 +37,7 @@
                 <a href="index.html" class="nav-link">Home</a>
               </li>
               <li class="nav-item">
-                <a href="corridas.php" class="nav-link">Corridas</a>
+                <a href="corridaTable.php" class="nav-link">Corridas</a>
               </li>
               <li class="nav-item">
                 <a href="passageiro.php" class="nav-link">Passageiro</a>
@@ -130,8 +130,10 @@
 
           <div class="form-row">
               <div class="col-md-9"></div>
-              <input type="submit" class="btn btn-outline-dark"  value="Cadastrar">
-          </div>
+                <div class="col-md-2"> 
+                  <input type="submit" class="btn btn-outline-dark"  value="Cadastrar">
+                <div>      
+            </div>
         </form>
       </div>
     </section><!--/FIM seção saiba -->
@@ -141,7 +143,7 @@
         <div class="row">
           <div class="col-md-4">
             <img src="img/facil.png" class="img-fluid">
-            <h4>Fácil de usar/pagar</h4>
+            <h4>Fácil de usar</h4>
             <p>
               O Corridas Compartilhadas vai além do básico e permite que você faça inúmeras corridas
             </p>
@@ -150,7 +152,7 @@
             <img src="img/economize.png" class="img-fluid">
             <h4>Economize seu tempo</h4>
             <p>
-              Tempo é dinheiro! Em estantes você chega ao seu destino!
+              Tempo é dinheiro! Em istantes você chega ao seu destino!
             </p>
           </div>
           <div class="col-md-4">

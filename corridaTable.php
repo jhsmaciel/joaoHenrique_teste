@@ -56,12 +56,11 @@
                       <a class="dropdown-item" href="cadastroMotorista.php">Cadastro Motorista</a>
                     <div class="dropdown-divider"></div>
                       <a class="dropdown-item" href="corridas.php">Cadastro Corrida</a>
-                    </div>  
+                    </div>
                   </div>
               </li>
             </ul>
           </div>
-
         </div>
       </nav>
     </header><!--/fim Cabecalho -->
@@ -71,9 +70,9 @@
         <div class="row">
           <div class="col-md-6 d-flex"><!-- Textos da seção -->
             <div class="align-self-center">
-              <h1 class="display-4">Consulta de Passageiros</h1>
+              <h1 class="display-4">Consulta de Motoristas</h1>
               <p>
-                  Nesta página há uma table listando todos os passageiros
+                  Nesta página há uma table listando todos os motoristas
               </p>
             </div>
           </div><!--/fim textos da seção -->
@@ -88,17 +87,16 @@
             <table class="table">
               <thead class="thread">
                 <tr>
-                  <th scope="col">ID</th>
-                  <th scope="col">Nome</th>
-                  <th scope="col">Data de Nascimento</th>
-                  <th scope="col">Sexo</th>
-                  <th scope="col">CPF</th>
+                  <th scope="col">Identificação da corrida</th>
+                  <th scope="col">Identificação do motorista</th>
+                  <th scope="col">Identificação do passageiro</th>
+                  <th scope="col">Valor da corrida</th>
                 </tr>
               </thead>
               <tbody>
                   <?php 
                     include_once('conexao.php');
-                    $stmt = $conexao->query("select idPassageiro,nomePassageiro, dataNascimento, sexo, cpfPassageiro from passageiro;");
+                    $stmt = $conexao->query("select idCorrida,idMot, idPass,valor from corrida;");
                     $lista = $stmt->fetchAll();
                     $count = count($lista);
                     for ($i = 0; $i < $count; $i++){
@@ -107,7 +105,6 @@
                               <td>".$lista[$i][1]."</td>
                               <td>".$lista[$i][2]."</td>
                               <td>".$lista[$i][3]."</td>
-                              <td>".$lista[$i][4]."</td>
                             </tr>"); 
                     }
                   ?>
