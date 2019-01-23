@@ -131,7 +131,7 @@
           <div class="form-row">
               <div class="col-md-9"></div>
                 <div class="col-md-2"> 
-                  <input type="submit" class="btn btn-outline-dark"  value="Cadastrar">
+                  <input type="submit" class="btn btn-outline-dark" style="margin-top:15px;" value="Cadastrar">
                 <div>      
             </div>
         </form>
